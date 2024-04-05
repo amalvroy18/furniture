@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Righteous", sans-serif;
+}
+:root{
+    --brown:rgb(121, 30, 30);
+}
+body{
+    overflow-x: hidden;
+}
+#logo{
+    width: 100%;
+    height: 100px;
+    
+}
+.nav-item i{
+    color:rgb(131, 123, 123)
+}
+.nav-item{
+    font-size: 20px;
+}
+#contactbtn{
+    background-color:var(--brown) ;
+    color: white;
+
+}
+#contactbtn:hover{
+    background-color: white;
+    color: var(--brown);
+    border-color: var(--brown);
+
+}
+.main{
+    background-image:url(https://i.pinimg.com/originals/0f/da/b2/0fdab2777096903ea4714a0b945b012d.jpg );
+  /*   height: 120vh; */
+    background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+.welcome{
+    padding-top: 22%;
+    padding-left: 5%;
+    color: white;
+}
+.welcome h3{
+    font-size: 60px;
+}
+.welcome h1{
+    font-size: 135px;
+}
+@media(max-width:600px){
+    .welcome h1{
+        font-size: 50px;
+    }
+    .main{
+        background-position: bottom;
+    }
+    .nav-item i{
+        display: none;
+    }
+    #Gallery Button{
+        width: 75%;
+
+    }
+    .work #title{
+        font-size: 30px;
+    }
+}
+.work{
+    background-image:url(https://lifencolors.in/cdn/shop/products/a2ae29_4199c8b245c445dfbcda4e329e3c34bf_mv2_68c74aa7-dd87-4e79-90dd-20506122fc34.jpg?v=1693806897&width=1946);
+   /*  margin-top: 4%; */
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    padding-top: 4%;
+    background-size: cover;
+    background-position: center;
+
+}
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight:600;
+    color: azure;
+}
+.viewBtn{
+    border-color: var(--brown);
+}
+.viewBtn:hover{
+    background-color: var(--brown);
+    color: white;
+
+}
+.card-title{
+    color: white;
+}
+.imgdiv{
+    width: 105%;
+    height: 520px;
+    border: 5px solid var(--brown);
+    padding-top: 4%;
+    padding-left: 4%;
+}
+.hr{
+    width: 20%;
+    height: 5px;
+    background-color: var(--brown);
+}
+#furn{
+    color: var(--brown);
+}
+#Gallery{
+    padding-top: 5%;
+}
+#Gallery h1{
+    padding-bottom: 5%;
+    font-weight: 600;
+}
+.img1{
+    position: relative;
+}
+
+.rosewood{
+    width:50%;
+    padding: 4%;
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+#st{
+    margin-top: 48px;
+}
+#vb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70vh;
+}
